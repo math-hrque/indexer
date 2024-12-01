@@ -36,7 +36,7 @@ public class WordFrequencyIndexer {
      */
     public synchronized void populateFromFile(String fileName) throws IOException {
         this.fileName = fileName;
-        Path filePath = Paths.get("documents", fileName);
+        Path filePath = Paths.get("docs", fileName);
     
         try (Stream<String> lines = Files.lines(filePath, StandardCharsets.UTF_8)) {
             lines.flatMap(line -> Stream.of(line.toLowerCase().split("[^a-zA-Z]+")))

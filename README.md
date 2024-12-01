@@ -69,7 +69,7 @@ In this example, **"machine"** has a higher **TF-IDF** score due to its rarity a
     git clone https://github.com/math-hrque/indexer.git
     ```
 
-2. Place the text files you wish to process inside the `documents` folder.  
+2. Place the text files you wish to process inside the `docs` folder.  
    You can download the required test documents from the following [Google Drive folder](https://drive.google.com/drive/folders/1aZGTSMqYiJIILG9ScFal6f7S_SqkiC8D?usp=drive_link).  
    The folder `indexer_test_documents` contains the following 5 text files:
 
@@ -79,7 +79,7 @@ In this example, **"machine"** has a higher **TF-IDF** score due to its rarity a
    - **history_of_computing.txt** (512MB)
    - **cloud_computing_and_big_data.txt** (1GB)
 
-   Download the files you need, and place them in the `documents` folder inside your project directory.
+   Download the files you need, and place them in the `docs` folder inside your project directory.
 
 3. Compile the project:
 
